@@ -15,6 +15,11 @@ fn main() {
     for x in 0..12 {
         println!("{:?}", get_transposition(x));
     }
+    // In reverse
+    println!("In reverse\n");
+    for x in (0..12).rev() {
+        println!("{:?}", get_transposition(x));
+    }
 }
 
 // TODO: Add tests.
